@@ -53,7 +53,7 @@ tar -vzxf FILE_NAME.tar.xz -C ~/.icons
 From this directory, copy the default theme to  `~/.icons
 
 ```bash
-#Be sure you have git cloned https://github.com/roger10cassares/mac-themes-for-ubuntu.git 
+# Be sure you have git cloned https://github.com/roger10cassares/mac-themes-for-ubuntu.git 
 #and gone to the mac-themes-for-ubuntu directory
 cp -r Ubuntu_20.04_LTS/,icons/* ~/.icons
 ```
