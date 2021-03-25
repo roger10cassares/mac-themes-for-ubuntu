@@ -1,4 +1,4 @@
-# M a c   T h e m e s   f o r   U b u n t u
+# M a c     T h e m e s     f o r     U b u n t u
 
 
 
