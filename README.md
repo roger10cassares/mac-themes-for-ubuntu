@@ -185,4 +185,4 @@ sudo reboot
 
 ---
 
-*God bless you in The Name of Jesus Christ the Lord*
+*God bless you in The Name of Jesus Christ the Lord!*
