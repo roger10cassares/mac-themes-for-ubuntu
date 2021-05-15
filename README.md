@@ -1,12 +1,14 @@
 # M a c     T h e m e s     f o r     U b u n t u
 
-
+![image-20210324230748812](./.images/image-20210324230748812.png)
 
 # Ubuntu 20.04 LTS
 
 From: https://ubuntuhandbook.org/index.php/2020/08/mac-os-catalina-theme-ubuntu-20-04/
 
 *Special Thanks to [Ji m](https://ubuntuhandbook.org/index.php/about/)*!
+
+
 
 ## 1. Install gnome-tweaks and other dependencies
 
@@ -34,7 +36,8 @@ From this directory, copy the default theme to  `~/.themes`
 ```bash
 git clone https://github.com/roger10cassares/mac-themes-for-ubuntu.git
 cd mac-themes-for-ubuntu
-cp -r Ubuntu_20.04_LTS/,themes/* ~/.themes
+mkdir -p ~/.themes
+cp -r Ubuntu_20.04_LTS/.themes/* ~/.themes
 ```
 
 
@@ -55,7 +58,8 @@ From this directory, copy the default theme to  `~/.icons
 ```bash
 # Be sure you have git cloned https://github.com/roger10cassares/mac-themes-for-ubuntu.git 
 #and gone to the mac-themes-for-ubuntu directory
-cp -r Ubuntu_20.04_LTS/,icons/* ~/.icons
+mkdir -p ~/.icons
+cp -r Ubuntu_20.04_LTS/.icons/* ~/.icons
 ```
 
 
@@ -70,9 +74,27 @@ sudo apt install chrome-gnome-shell
 
 
 
-Go to https://extensions.gnome.org/extension/1036/extensions/ and set it to `ON`
+Go to https://extensions.gnome.org/extension/19/user-themes/ and install the extension, according to the destacated nformation.
 
-![image-20210324221948971](/home/roger/.config/Typora/typora-user-images/image-20210324221948971.png)
+![image-20210515181332610](./.images/image-20210515181332610.png)
+
+
+
+Proceed to `Continue` the Installation, in Firefox case, for example. Then, select `Add` option to confirm the installation of  the plugins.
+
+![image-20210515181629033](./.images/image-20210515181629033.png)
+
+
+
+Verify that the extensions was correctly installed.
+
+![image-20210515181730595](./.images/image-20210515181730595.png)
+
+
+
+Go to https://extensions.gnome.org/extension/1036/extensions/ and set it to `ON`. Verify that a little cloud icon appears when the button is toggled.
+
+![image-20210515182057489](./.images/image-20210515182057489.png)
 
 
 
@@ -88,9 +110,15 @@ Then, go to https://extensions.gnome.org/extension/1251/blyr/ and set it to `ON`
 
 
 
+Plase take a look at options and extensions that were installed by clicking in the little cloud icon at the Top Right Corner.
+
+![image-20210515182458512](./.images/image-20210515182458512.png)
+
+
+
 ## 5. Apply the Theme and Icons using the Tweaks Interface
 
-Search for Tweaks and click to open
+Search for `Tweaks` and click to open
 
 ![image-20210324222955868](./.images/image-20210324222955868.png)
 
@@ -132,6 +160,8 @@ From: https://github.com/PRATAP-KUMAR/focalgdm3
 Go to `focalgdm3` cloned path from https://github.com/PRATAP-KUMAR/focalgdm3 and run from this directory level:
 
 ```bash 
+cd  Ubuntu_20.04_LTS
+git clone https://github.com/PRATAP-KUMAR/focalgdm3.git
 cd focalgdm3
 sudo ./focalgdm3 --set
 ```
@@ -139,12 +169,12 @@ sudo ./focalgdm3 --set
 Then proceed the following instructions typing `Yes`
 
 ```bash
--------------------------------------------------------------------------------------------------------
+----
 Please note that after setting login screen background,
 >>>>>>>>> Reboot is highly recomonded to see the changes <<<<<<<<<<<<
 
 Do you want to proceed now? [Yes/no] Type n to exit, or press enter to proceed.
--------------------------------------------------------------------------------------------------------
+----
 Yes
 ```
 
@@ -152,10 +182,10 @@ Then, choose type number `1` to set an Image for the `Login Screen` Background
 
 ```bash
 Please Choose any one number from below.
--------------
+----
 1. for Image
 2. for Color
--------------
+----
 1
 ```
 
@@ -163,11 +193,11 @@ Finally, type the path for the desired image:
 
 ```bash
 nter Image Path for Login Screen
-----------------------------------------------------
+----
 Example1: /usr/share/backgrounds/2.jpg
 Example2: /usr/local/share/backgrounds/spaceship.png
 Example3: /home/focal/Downloads/myBG.jpeg
-----------------------------------------------------
+----
 PATH/TO/mac-themes-for-ubuntu/Wallpapers/LoginScreen/oceanRock.jpg
 ```
 
